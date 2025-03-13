@@ -1,3 +1,4 @@
-# Browser.v2
+# Browser v2
 c++ Warp Browser testing repo
-kjkjk
+
+Fenster + webview
