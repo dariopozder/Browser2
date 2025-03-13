@@ -1,4 +1,5 @@
-# Browser v2
-c++ Warp Browser testing repo
+# Browser2
 
-Fenster + webview
+Two Warp codebases in this repo : 
+Engine : new JS engine based on Neo
+Native : new c++ crossplatform Browser
