@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Editor</title>
+    <link rel="stylesheet" href="https://bemjax.com/cdn/development/Warp/dist/warp.min.css?v=97">
+    <link rel="stylesheet" href="https://bemjax.com/cdn/development/Warp/dist/dark.skin.css?v=97">
+    <!--  <script src="../../cdn/development/Warp/dist/warp.js?v=2" type="text/javascript" charset="utf-8"></script>-->
+    <link rel="stylesheet" href="editor.css?v=37">
+    <!--<script src="../js/vendor/vendor.js" type="text/javascript" charset="utf-8"></script>-->
+    <script src="src-min/ace.js" type="text/javascript" charset="utf-8"></script>
+    <script src="editor-middleware.js?v=4" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+    <div class="warp">
+    <div class="hsm toolbar">
+        <div class="fl ml5 mr5 current" style="margin-top:3px">
+
+        </div>
+        <div class="fl m5 mt0 history">
+
+        </div>
+        <button onclick="editor.execCommand('showSettingsMenu')" class="xs mt5 fr mr5">...</button>
+        <button class="xs mt5 mr5 fr fold">Fold</button>
+        <button class="xs mt5 mr5 fr beautify">Format</button>
+         <button class="xs mt5 mr5 fl save">Save</button>
+        <button class="xs mt5 mr5 fl commit">Commit</button>
+       
+    </div>
+    <div id="editor">
+        let x;
+    </div>
+    </div>
+</body>
+</html>
